@@ -1,0 +1,244 @@
+body {
+  background-color: black;
+  font-family: 'Nunito';
+  margin: auto;
+}
+h1 {
+  color: white;
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+}
+h2 {
+  color: white;
+  font-size: 24px
+}
+h3 {
+  color: white;
+  font-size: 22px;
+}
+p {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding: 0px 20px 10px 30px;
+}
+li {
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 30px;
+
+}
+header {
+  display: flex;
+}
+.navBar {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+.topNavbar {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  /* height: 200px; */
+  font-size: 32px;
+  font-weight: 800;
+  overflow: hidden;
+}
+.navPage {
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 10px;
+  border: #00FFFF double 8px;
+  margin: 28px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate; 
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  
+}
+.active {
+  color: #FF5F1F;
+  text-shadow: 0 0 0
+}
+a {
+  float: center;
+  color: #ffffff;
+  text-align: center; 
+  font-size: 32px;
+}
+.navPage:hover {
+  font-size: 34px;
+  border: #FF5F1F double 8px;  
+  color: white;
+}
+.logo {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  Padding: 0px 10px 0px 0px;
+}
+.hiIm {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 10px
+}
+.ss {
+  align-items: left;
+  height: 550px;
+  width: 675px;
+  border: #FF5F1F double 8px;
+}
+.ss h1 {
+  display: flex;
+  justify-content: center;
+}
+/* .me {
+  padding: 90px 20px 20px 30px
+} */
+.photo {
+  align-items: right;
+  border: #FF5F1F double 8px;
+  height: 550px;
+  width: 675px;
+}
+img {
+  width: 75%;
+}
+.myPic {
+  padding: 20px 90px;
+}
+.myViews {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+}
+.headLines {
+  display: flex;
+  border: #00FFFF double 8px;
+  width: 445px;
+  height: 75px
+}
+.uR {
+  display: flex;
+  padding: 0px 107px 0px 107px;
+}
+.iA {
+  display: flex;
+  padding: 0px 30px 0px 30px;
+}
+.pR {
+  display: flex;
+  padding: 0px 120px 0px 130px;
+}
+.lines {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 0px;
+}
+.ur {
+  display: flex;
+  padding: 10px;
+  border: #FF5F1F double 8px;
+  width: 425px;
+  height: 175px
+}
+.ia {
+  display: flex;
+  padding: 10px;
+  border: #FF5F1F double 8px;
+  width: 425px;
+  height: 175px
+}
+.pr {
+  display: flex;
+  padding: 10px;
+  border: #FF5F1F double 8px;
+  width: 425px;
+  height: 175px
+}
+.myAbs {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 30px 0px 10px 0px;
+}
+.lineHeads {
+  display: flex;
+  height: 75px;
+  width: 675px;
+  border: #00FFFF double 8px;
+}
+.mS {
+  display: flex;
+  padding: 0px 272px 0px 272px;
+}
+.mT {
+  display: flex;
+  padding: 0px 272px 0px 272px;
+}
+.bp {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
+}
+.skills {
+  display: flex;
+  align-items: left;
+  border: #FF5F1F double 8px;
+  width: 675px;
+  height: 300px
+}
+.bullet {
+  display: justify;
+  padding: 0px 20px 0px 70px;
+}
+.tools {
+  display: flex;
+  align-items: left;
+  border: #FF5F1F double 8px;
+  width: 675px;
+  height: 300px
+}
+.point {
+  display: justify;
+  padding: 0px 20px 0px 100px;
+}
+footer {
+  display: flex;
+}
+.cr {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px black, 0 0 10px #fff, 0 0 20px #009999, 0 0 30px #009999, 0 0 40px #009999, 0 0 50px #009999, 0 0 60px #009999;
+  }
+  to {
+    text-shadow: 0 0 10px black, 0 0 20px #00FFFF, 0 0 30px #00FFFF, 0 0 40px #00FFFF, 0 0 50px #00FFFF, 0 0 60px #00FFFF, 0 0 70px #00FFFF
+  }
+}
+/* Will this make my outlines/borders glow?? 
+.glow { 
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow s ease-in-out infinite alternate;
+} */
+/* MEDIA QUERIES */
+
