@@ -11,7 +11,8 @@ h1 {
 }
 h2 {
   color: white;
-  font-size: 24px
+  font-size: 24px;
+  text-align: center;
 }
 h3 {
   color: white;
@@ -86,7 +87,7 @@ a {
   display: flex;
   justify-content: center;
   margin: auto;
-  padding: 10px
+  padding: 20px 0px;
 }
 .ss {
   align-items: left;
@@ -117,7 +118,7 @@ img {
   display: flex;
   justify-content: center;
   margin: auto;
-  padding: 20px;
+  padding: 20px 0px;
 }
 .headLines {
   display: flex;
@@ -168,7 +169,7 @@ img {
   display: flex;
   justify-content: center;
   margin: auto;
-  padding: 30px 0px 10px 0px;
+  padding: 40px 0px 20px;
 }
 .lineHeads {
   display: flex;
@@ -188,7 +189,7 @@ img {
   display: flex;
   justify-content: center;
   margin: auto;
-  padding: 10px;
+  padding: 0px 0px 40px;
 }
 .skills {
   display: flex;
@@ -221,7 +222,7 @@ footer {
   justify-content: center;
 }
 
-
+/* MEDIA QUERIES */
 
 @-webkit-keyframes glow {
   from {
@@ -240,5 +241,433 @@ footer {
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow s ease-in-out infinite alternate;
 } */
-/* MEDIA QUERIES */
 
+
+/* Below 1400px */
+@media only screen and (max-width: 1400px) {
+  body {
+    width: 700px;
+    margin: auto;
+  }
+  h1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+  }
+  h2 {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+  }
+  h3 {
+    color: white;
+    font-size: 14px;
+  }
+  p {
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    padding: 0px 20px 10px 30px;
+  }
+  li {
+    color: white;
+    font-size: 14px;
+    padding: 6px 10px;
+  
+  }
+  header {
+    display: flex;
+    width: 700px
+  }
+  .navBar {
+    width: 700px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: black;
+  }
+  .topNavbar {    
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .navPage {
+    width: 140px;
+    display: inline-block;
+    text-align: center;    
+    border: #00FFFF double 8px;
+    margin: auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate; 
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  .active {
+    color: #FF5F1F;
+    text-shadow: 0 0 0
+  }
+  a {
+    float: center;
+    color: #ffffff;
+    text-align: center; 
+    font-size: 17px;
+  }
+  .logo {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding: 0px;
+  }
+  .hiIm {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px 0px;
+  }
+  .ss {
+    align-items: left;
+    border: #FF5F1F double 8px;
+    width: 350px;
+    height: 420px;
+  }
+  .ss h1 {
+    display: flex;
+    justify-content: center;
+  }
+  .photo {
+    align-items: right;
+    border: #FF5F1F double 8px;
+    width: 350px;
+    height: 420px;
+  }
+  img {
+    width: 90%;
+  }
+  .myPic {
+    padding: 55px 18px;
+  }
+  .myViews {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px 0px;
+  }
+  .headLines {
+    display: flex;
+    border: #00FFFF double 8px;
+    width: 218px;
+    height: 75px
+  }
+  .uR {
+    display: flex;
+    padding: 0px 60px;
+  }
+  .iA {
+    display: flex;
+    padding: 0px 30px;
+  }
+  .pR {
+    display: flex;
+    padding: 12px 50px;
+  }
+  .lines {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0px;
+  }
+  .ur {
+    display: flex;
+    padding: 10px;
+    border: #FF5F1F double 8px;
+    width: 218px;
+    height: 150px
+  }
+  .ia {
+    display: flex;
+    padding: 10px;
+    border: #FF5F1F double 8px;
+    width: 218px;
+    height: 150px
+  }
+  .pr {
+    display: flex;
+    padding: 10px;
+    border: #FF5F1F double 8px;
+    width: 218px;
+    height: 150px
+  }
+  .myAbs {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 40px 0px 20px;
+  }
+  .lineHeads {
+    display: flex;
+    width: 335px;
+    height: 75px;
+    border: #00FFFF double 8px;
+  }
+  .mS {
+    display: flex;
+    padding: 0px 140px;
+  }
+  .mT {
+    display: flex;
+    padding: 0px 140px;
+  }
+  .bp {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 0px 40px;
+  }
+  .skills {
+    display: flex;
+    align-items: left;
+    border: #FF5F1F double 8px;
+    width: 335px;
+    height: 300px
+  }
+  .bullet {
+    display: justify;
+    padding: 0px 40px;
+  }
+  .tools {
+    display: flex;
+    align-items: left;
+    border: #FF5F1F double 8px;
+    width: 335px;
+    height: 300px
+  }
+  .point {
+    display: justify;
+    padding: 0px 40px;
+  }
+  footer {
+    display: flex;
+  }
+  .cr {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+  
+}
+
+/* Below 750px */
+@media only screen and (max-width: 750px) {
+  body {
+    width: 280px;
+    margin: auto;
+  }
+  h1 {
+    color: white;
+    font-size: 8px;
+    font-weight: 800;
+    text-align: center;
+  }
+  h2 {
+    color: white;
+    font-size: 6px;
+    text-align: center;
+  }
+  h3 {
+    color: white;
+    font-size:4px;
+  }
+  p {
+    color: white;
+    font-size: 8px;
+    text-align: left;
+    padding: 0px 4px 10px 6px;
+  }
+  li {
+    color: white;
+    font-size: 8px;
+    padding: 2px;
+  
+  }
+  header {
+    display: flex;
+    width: 280px
+  }
+  .navBar {
+    width: 278px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: black;
+  }
+  .topNavbar {    
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .navPage {
+    display: inline-block;
+    text-align: center;    
+    border: #00FFFF double 2px;
+    margin: auto;
+    -webkit-animation: glow 1s ease-in-out infinite alternate; 
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  .active {
+    color: #FF5F1F;
+    text-shadow: 0 0 0
+  }
+  a {
+    float: center;
+    color: #ffffff;
+    text-align: center; 
+    font-size: 6px;
+  }
+  .logo {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding: 0px;
+  }
+  .hiIm {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px 0px 5px;
+  }
+  .ss {
+    align-items: left;
+    border: #FF5F1F double 2px;
+    width: 135px;
+    height: 380px;
+  }
+  .ss h1 {
+    display: flex;
+    justify-content: center;
+  }
+  .photo {
+    align-items: right;
+    border: #FF5F1F double 2px;
+    width: 135px;
+    height: 380px;
+  }
+  img {
+    width: 90%;
+  }
+  .myPic {
+    padding: 120px 7px;
+  }
+  .myViews {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 5px 0px;
+  }
+  .headLines {
+    display: flex;
+    border: #00FFFF double 2px;
+    width: 88.8px;
+    height: 34px
+  }
+  .uR {
+    display: flex;
+    padding: 0px 20px;
+  }
+  .iA {
+    display: flex;
+    padding: 0px 10px;
+  }
+  .pR {
+    display: flex;
+    padding: 6px 18px;
+  }
+  .lines {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0px;
+  }
+  .ur {
+    display: flex;
+    padding: 10px;
+    border: #FF5F1F double 2px;
+    width: 68.5px;
+    height: 165px
+  }
+  .ia {
+    display: flex;
+    padding: 10px;
+    border: #FF5F1F double 2px;
+    width: 68.5px;
+    height: 165px
+  }
+  .pr {
+    display: flex;
+    padding: 10px;
+    border: #FF5F1F double 2px;
+    width: 68.5px;
+    height: 165px
+  }
+  .myAbs {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px 0px 5px;
+  }
+  .lineHeads {
+    display: flex;
+    width: 135px;
+    height: 34px;
+    border: #00FFFF double 2px;
+  }
+  .mS {
+    display: flex;
+    padding: 0px 50px;
+  }
+  .mT {
+    display: flex;
+    padding: 0px 50px;
+  }
+  .bp {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 0px 10px;
+  }
+  .skills {
+    display: flex;
+    align-items: left;
+    border: #FF5F1F double 2px;
+    width: 135px;
+    height: 165px
+  }
+  .bullet {
+    display: justify;
+    padding: 0px 12px;
+  }
+  .tools {
+    display: flex;
+    align-items: left;
+    border: #FF5F1F double 2px;
+    width: 135px;
+    height: 165px
+  }
+  .point {
+    display: justify;
+    padding: 0px 16px;
+  }
+  footer {
+    display: flex;
+  }
+  .cr {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 2px 0px 4px;
+  }  
+} 
